@@ -1,0 +1,182 @@
+<!DOCTYPE>
+<html>
+<div>
+  <header id="header">
+  <div class="placer">
+    <div class="imagee" id="text">
+      <img src="https://th.bing.com/th/id/OIP.7sn_MUIPWm1UCmv_A1VJtwHaHa?pid=ImgDet&rs=1" id="header-img" height="100" width="100" alt="Product Landing Page"><br><br><strong>PRODUCT LANDING PAGE</strong>
+    </div>
+  <nav id="nav-bar" class="nav-bar">
+    <ul class="for-ul">
+       <li><a href="#Features"  class="nav-link">Features</a></li>
+      <li ><a href="#register" class="nav-link">Register</a></li>
+      <li><a href="#Pricing"  class="nav-link">Pricing</a></li>
+    </ul>
+  </nav>
+  </div>
+ </header>
+  <main id="main">
+    <section id="Features" class="sec">
+      <div class="placer">
+        <div class="title">Features</div>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+      </div>
+    </section>
+    <section id="Pricing" class="sec2">
+      <div class="placer">
+        <div class="title">Pricing</div>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin </p>
+ </div>
+</section>
+  <video id="video" width="500" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+    <section id="register" class="reg">
+      <div class="placer">
+        <div class="title1">Register</div>
+      <form action=" https://www.freecodecamp.com/email-submit" id="form">
+    <input id="email" type="email" placeholder="Enter your Email address" name="email">
+   <input type="submit" id="submit" value="Send" name="email" class="n butn">
+  </form>
+      </div>
+  </main>
+  </div>
+<style>
+     @media all and(max-width:600px)
+#header-img{
+  height:100px;
+  widht:100px;
+  display:flex;
+}
+.placer{
+  max-width:1000px;
+margin:0 auto;
+  padding:0 300px;
+}
+.placer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+#text{
+display:flex;
+  align-items:center;
+  justify-content:flext-end;
+  color:grey;
+  font-weight:200px;
+  font-size:25px;
+}
+
+.imagee{
+   #header-img
+  {
+   display:none;
+  }
+}
+#header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index:10;
+  background-color:white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 0px;
+  border:2px 0px 3px 0px;
+  border-color:orange;
+  border-style:solid;
+  .placer{
+  display:flex;
+    justfiy-content:space-between;
+    align-items:center;
+  }
+
+}
+#nav-bar{
+ float:right;
+  font-size:20px;
+  font-weight:20px;
+ }
+#nav-bar ul{
+  display:flex;
+  margin-right:0;
+  list-style:none;
+}
+#nav-bar a{
+  text-decoration:none;
+  color:grey;
+}
+#nav-bar li{
+pading: 3px 3px;
+margin:13px 15px;
+list-style:none;
+}
+#nav-bar a:hover{
+  background:#FCD299;
+}
+body{ background:url("https://wallpapertag.com/wallpaper/full/a/a/4/102788-light-grey-background-1920x1200-desktop.jpg");
+}
+.main{
+  padding-top:100px;
+}
+
+.title{
+  font-weight:700px;
+  margin:0 10px 20px 0;
+  display:flex;
+  justify-content:center
+  align-items:center;
+  font-size: 35px;
+  color: Grey;
+  text-align: justify;
+}
+.sec{
+padding:95px 20px 0px 40px;
+}
+.sec2{
+padding:25px 20px 0px 40px;
+}
+input{
+  padding:10px 15px;
+  font-size:16px;
+  border:1px solid white;
+}
+.title1{
+  font-weight:700px;
+  display:flex;
+  justify-content:center
+  align-items:center;
+  font-size: 35px;
+  color: Grey;
+  text-align: justify;
+  padding:10px 100px;
+}
+.reg{
+  padding:35px 300px 0px 0px;
+}
+.n{
+  background:orange;
+  padding: 5px 5px;
+  font-size: 16px;
+  color:white;
+  border:grey;
+  letter-spacing: 1px;
+  cursor: pointer;
+  &.butn{
+   background:white;
+  border:1.5px solid grey;
+  color:orange;
+  }
+  &:hover{ background:lighten(orange,15px);
+ }
+}
+#video{
+  display:block;
+  margin:auto;
+}
+
+</style>
+</html>
