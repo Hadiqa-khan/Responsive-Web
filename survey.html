@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<h1 id="title" >SURVEY FORM</h1>
+<p id="description"> This is a survey form please fill out for your registration </p>
+<main id="main">
+<form action="" id="survey-form">
+  <label id="name-label">Name</label><br>
+  <input type="text" id="name" placeholder="Enter Your Name" required><br>
+   <label id="email-label">Email</label><br>
+  <input type="email" id="email" placeholder="Enter Your Email" required><br>
+     <label id="number-label">Number</label><br>
+  <input type="number" id=number min="0" max="11" placeholder="Enter Your Number" required><br>
+  <label for="drop">Which Option will you select: </label><br>
+  <select placeholder="select-option" id="dropdown" form="survey-form" requried>
+    <option value="student">Student</option>
+    <option value="Worker">Worker</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Contributor">Contributor</option>
+  </select><br>
+  <fieldset>
+    <legend>Mark any one of the following, will you choose yourself to be independent:</legend>
+   <input id="one" type="radio" name="items" value="one">
+    <label for="one">Yes</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">No</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Maybe</label><br>
+  </fieldset>
+  <legend>What is your favourite element (Please Check all that apply)</legend><br>
+  <input id="four" type="checkbox" value="four" name="item">
+  <label for="four">HTML</label><br>
+ <input id="five" type="checkbox" value="five" name="item">
+  <label for="five">CSS</label><br>
+  <input id="six" type="checkbox" value="six" name="item">
+  <label for="six">JAVASCRIPT</label><br>
+   <input id="seven" type="checkbox" value="seven" name="item">
+  <label for="seven">JQUERY</label><br>
+   <input id="eight" type="checkbox" value="eight" name="item">
+  <label for="eight">C FAMILY</label><br>
+  <label>Enter Suggestion If you have any</label><br>
+  <textarea id="area" name="suggestion" rows="4" cols="50">
+  </textarea><br>
+  <button type="submit" id="submit">Submit Your Response</button>
+  </form>
+  </main>
+
+</html>
